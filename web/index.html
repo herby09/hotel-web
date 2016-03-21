@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Hotel Grano de Oro</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script src="js/jquery.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+       <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){   
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+        });
+      });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        /*
+        var defaults = {
+        containerID: 'toTop', // fading element id
+        containerHoverID: 'toTopHover', // fading element hover id
+        scrollSpeed: 1200,
+        easingType: 'linear' 
+        };
+        */
+    $().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+
+</head>
+<body>
+<!-- header -->
+  <div class="banner">
+    <div class="container">
+        <div class="head-nav">
+            <span class="menu"> </span>
+              <ul class="cl-effect-7">
+                <li><a href="#ourresort" class="scroll">nuestro resort</a></li>
+                <li><a href="#suites" class="scroll">suites</a></li>
+                <li><a href="#services" class="scroll">servicios</a></li>
+                <li><a href="#reservations" class="scroll">reservaciones</a></li>
+                <li><a href="#contact" class="scroll">contacto</a></li>
+                  <div class="clearfix"> </div>
+              </ul>
+        </div>
+          <!-- script-for-nav -->
+          <script>
+            $( "span.menu" ).click(function() {
+              $( ".head-nav ul" ).slideToggle(300, function() {
+              // Animation complete.
+              });
+            });
+          </script>
+        <!-- script-for-nav -->
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+        </div>
+        <div class="banner-info">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed augue ac eros lobortis volutpat eget ac est. Nullam ante libero, finibus id nunc eget, commodo luctus lacus. Sed at tristique orci.</p>
+        </div>
+    </div>
+  </div>
+<!-- header -->
+<!-- ENCHANTMENT  -->
+  <div class="ENCHANTMENT" id="ourresort">
+      <div class="col-md-6 ENCHANTMENT-left">
+        <img src="images/5.jpg" class="img-responsive" alt="">
+      </div>
+      <div class="col-md-6 ENCHANTMENT-right">
+          <section class="slider">
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                  <div class="slider-info">
+                    <img src="images/logo1.png" class="img-responsive" alt="">
+                    <h3>COMODIDAD</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque justo ac velit facilisis convallis vel id nisi. Morbi hendrerit ac tellus eu luctus. Vestibulum ullamcorper elit eu eleifend posuere. Proin imperdiet nisl eu est vulputate, vel tincidunt lacus pretium.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="slider-info">
+                    <img src="images/logo1.png" class="img-responsive" alt="">
+                    <h3>LUJO</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque justo ac velit facilisis convallis vel id nisi. Morbi hendrerit ac tellus eu luctus. Vestibulum ullamcorper elit eu eleifend posuere. Proin imperdiet nisl eu est vulputate, vel tincidunt lacus pretium.</p>
+                  </div>
+                </li>
+                <li>  
+                  <div class="slider-info">
+                    <img src="images/logo1.png" class="img-responsive" alt="">
+                    <h3>BELLEZA</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque justo ac velit facilisis convallis vel id nisi. Morbi hendrerit ac tellus eu luctus. Vestibulum ullamcorper elit eu eleifend posuere. Proin imperdiet nisl eu est vulputate, vel tincidunt lacus pretium.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+            <!-- FlexSlider -->
+                <script defer src="js/jquery.flexslider.js"></script>
+                <script type="text/javascript">
+                $(function(){
+                  SyntaxHighlighter.all();
+                });
+                $(window).load(function(){
+                  $('.flexslider').flexslider({
+                  animation: "slide",
+                  start: function(slider){
+                    $('body').removeClass('loading');
+                  }
+                  });
+                });
+                </script>
+            <!-- FlexSlider -->
+  <!-- slider -->
+      </div>
+      <div class="clearfix"> </div>
+  </div>
+<!-- ENCHANTMENT  -->
+<!-- wonder -->   
+  <div class="wonder" id="">
+    <div class="col-md-2 wonder-left">
+      <img src="images/2.jpg" class="img-responsive" alt="">
+    </div>  
+    <div class="col-md-4 wonder-mid">
+      <img src="images/logo1.png" class="img-responsive" alt="">
+      <h5>HABITACIONES</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque justo ac velit facilisis </p>
+    </div>  
+    <div class="col-md-6 wonder-right">
+      <img src="images/bed2.jpg" class="img-responsive" alt="">
+    </div>  
+      <div class="clearfix"> </div>
+  </div>    
+<!-- wonder -->
+<!-- rooms -->
+  <div class="rooms" id="suites">
+    <div class="col-md-4 rooms-1">
+      <div class="room-info">
+        <img src="images/logo2.png" class="img-responsive" alt="">
+      </div>
+      <div class="room-info1">
+          <ul>
+            <li><a href="#"><i class="search"></i>explorar</a></li>
+            <li><a href="#"><i class="boo"></i>brochure</a></li>
+            <li><a href="#"><i class="bro"></i>reservar</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="col-md-4 rooms-2">
+      <div class="room-info">
+        <img src="images/logo3.png" class="img-responsive" alt="">
+      </div>
+      <div class="room-info1">
+          <ul>
+            <li><a href="#"><i class="search"></i>explorar</a></li>
+            <li><a href="#"><i class="boo"></i>brochure</a></li>
+            <li><a href="#"><i class="bro"></i>reservar</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="col-md-4 rooms-3">
+      <div class="room-info">
+        <img src="images/logo4.png" class="img-responsive" alt="">
+      </div>
+      <div class="room-info1">
+          <ul>
+            <li><a href="#"><i class="search"></i>explorar</a></li>
+            <li><a href="#"><i class="boo"></i>brochure</a></li>
+            <li><a href="#"><i class="bro"></i>reservar</a></li>
+          </ul>
+      </div>
+    </div>
+      <div class="clearfix"> </div>
+  </div>
+<!-- rooms -->
+
+<!-- contact -->
+  <div class="contact" id="reservations">
+    <div class="col-md-4 contact-left">
+      <div class="contact-left1">
+        <img src="images/logo5.png" class="img-responsive" alt="">
+        <h3>RESERVACION</h3>
+      </div>
+    </div>
+    <div class="col-md-8 contact-right" id="contact">
+      <div class="contact-details">
+        <h3>CONTACTO</h3>
+        <div class="text-field-name-1">
+            <form>
+              <input type="text" class="text" value=" Nombre*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Nombre*';}">
+              <input type="text" class="text" value="Apellido*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Apellido*';}">
+              <input type="text" class="text" value=" Provincia" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Provincia';}">
+              <input type="text" class="text" value="Email*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email*';}">
+              <input type="text" class="text" value=" Tel" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Tel';}">
+            </form>
+        </div>
+      </div>
+      <div class="reservation-details">
+      <h3>RESERVACION</h3>
+        <div class="text-field-name-1">
+            <form>
+              <input type="text" class="text" value=" Check-in*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Check-in*';}">
+              <input type="text" class="text" value="Check-out*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Check-out';}">
+              <input type="text" class="text" value=" Cuartos*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Cuartos*';}">
+            </form>
+        </div>    
+        <div class="text-field-name-2">
+            <form>
+              <input type="text" class="text" value="Check-out*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Check-out';}">
+              <input type="text" class="text" value=" Cuartos*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Cuartos*';}">
+            </form>
+            <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Privacidad</label>
+        </div>
+      </div>
+        <div class="clearfix"> </div>
+        <div class="button">
+            <form>
+              <input type="submit" value="enviar">
+            </form>
+          </div>
+    </div>
+      <div class="clearfix"> </div>
+  </div>
+<!-- contact -->
+<!-- guests -->
+  <div class="guests" >
+    <div class="container">
+      <img src="images/logo5.png" class="img-responsive" alt="">
+      <h3>SEA NUESTRO INVITADO</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque justo ac velit facilisis convallis vel id </p>
+    </div>
+  </div>
+<!-- guests -->
+<!-- footer -->
+  <div class="footer">
+    <div class="col-md-6 footer-left">
+    <img src="images/4.jpg" class="img-responsive" alt="">
+      <div class="col-md-6 footer-left1">
+        <img src="images/logo5.png" class="img-responsive" alt="">
+      </div>
+      <div class="col-md-6 footer-left2">
+        <ul>
+          <li>HOTEL GRANO DE ORO</li>
+          <li>Costa Rica</li>
+        </ul>
+        <p>+506 8888 8888</p>
+        <h6><a href="#">info@granodeoro.com</h6></a>
+      </div>
+        <div class="clearfix"> </div>
+          <div class="footer-left3">
+            <ul>
+              <li><a href="#"><i class="fb"></i></a></li>
+              <li><a href="#"><i class="twt"></i></a></li>
+              <li><a href="#"><i class="goop"></i></a></li>
+              <li><a href="#"><i class="in"></i></a></li>
+              <li><a href="#"><i class="do"></i></a></li>
+              <li><a href="#"><i class="drib"></i></a></li>
+              <li><a href="#"><i class="tet"></i></a></li>
+                <div class="clearfix"> </div>
+            </ul>
+          </div>
+    </div>
+    <div class="col-md-6 footer-right">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et varius turpis. Donec enim sapien, sollicitudin quis volutpat nec, sagittis eget ex. Pellentesque in accumsan orci.</p>
+        <div class="clearfix"> </div>
+      <h6>Copyrights © 2015 | Wensite by <a href="#">Helberth Sanchez</a></h6>
+    </div>
+      <div class="clearfix"> </div>
+  </div>
+  <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span> <span id="toTopHover" style="opacity: 0;"> </span></a>
+<!-- footer -->
+</body>
+</html>
